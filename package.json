@@ -1,0 +1,16 @@
+{
+  "name": "crash-bun",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "watch": "bun run --watch src/index.ts",
+    "serve": "bun run --hot src/server/server.ts",
+    "build": "bun run src/building/build.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
